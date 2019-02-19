@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interview Screening Questionnaire</title>
+  <style>
+
+    #question2{
+      margin: 10px 0px;
+      border: 1px red solid;
+    }
+    .green {
+      color:green
+    }
+    .red{
+      color:red
+    }
+    .left{
+      position: relative;
+      float:left
+    }
+    .right{
+      position: relative;
+      float:right
+    }
+    .center{
+    margin:0 auto;width:500px;
+    }
+    @media screen and (max-width: 800px) {
+    .center {
+           display:none;
+    }
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById("jsColor").style.color = 'DarkBlue';
+});
+</script>
+</head>
+<body>
+  <div>
+    <div>
+
+            <h1>Welcome to Comcast&#39;s Pre-Interview Questionnaire!</h1>
+            <p>
+              Interviewing candidates takes a lot of time, and time is valuable for all of us.
+              If you are as serious about working for Comcast as we are about working with great people,
+              please take the time to fill out this questionnaire. We devised these questions as a test of
+              skills we consider primary and fundamental.
+            </p>
+
+            <h2>Instructions:</h2>
+            <b>-</b> Read and work on the problems in a text/html editor. It will make a lot more sense that way.<br>
+            <b>-</b> Do not use any Javascript or CSS frameworks.<br>
+            <b>-</b> Work on this alone. Feel free to use google or any reference material you have.<br>
+            <b>-</b> If you can&#39;t solve a problem, comment on it.<br><br>
+
+
+        <hr>
+        <div>
+            <h1>Ranking Question:</h1>
+            <div>Rate yourself on the following technologies on a scale of 1-10. You may be asked to justify these answers in an interview.</div>
+            <div>
+                1 - Beginner (I don&#39;t really know that)<br>
+                4 - Intermediate (I can work without help)<br>
+                6 - Advanced (People come to me for help in esoteric or hard problems)<br>
+                8 - Industry Expert (People outside my office see me as an expert)<br>
+                10 - Spec/Language Author or Primary Contributor.
+            </div>
+            <br>
+            Angular <div>1</div>
+            Polymer <div>1</div>
+            React <div>8</div>
+            Vue <div>4</div>
+            Redux <div>6</div>
+            JavaScript (vanilla DOM) <div>6</div>
+            JavaScript (scripting) <div>6</div>
+            HTML <div>6</div>
+            CSS <div>6</div>
+            Build Tools <div>6</div>
+            SVN/Git <div>4</div>
+            Server-side Languages (Go, Java, Perl..) <div>6</div>
+        </div>
+
+
+          <h1>CSS / HTML Portion</h1>
+          <p>
+            The CSS / HTML portion of the test should be completed within 30 minutes.
+          </p>
+
+          <hr>
+          <div>
+              <h1>Question 1:</h1>
+              <div>This HTML isn&#39;t perfect. Go through the markup and list your top 5 issues in the div below,
+                provide more for bonus points (non-redeemable).
+              </div>
+              <div>
+                1. Extra pair of div placed in question 2 in the HTML/CSS portion.  <br />
+                2. In the DevOps Portion div tags are not closing correctly.  <br />
+                3. In the Personal Development, div tags are not closing correctly.  <br />
+                4. In the end after question 3 of DevOps Portion, there'are many extra closing div tags which are properly placed.  <br />
+                5. In the end after question 2 of Personal Development, there'are many extra closing div tags which are properly placed.  <br />
+                6. Extra closing divs at the end.  <br />
+                7. I will use p tag in the description sentence after each question.  <br />
+                8. Question 3 in the HTML/CSS portion, the img tag doesn't have src and alt attributes.
+              </div>
+          </div>
+
+          <hr>
+          <div id="question2" >
+              <h1 >Question 2:</h1>
+              <div>
+                  <div>
+                      Style the div with an id of &quot;question2&quot; as follows:<br>
+                      1) Only style div#question2. The styles for div.q2 should not be modified.<br>
+                      2) Add a 1 pixel red border to the div#question2<br>
+                      3) Add space such that the red border is visually rendered 10px away from the blue pixels on each side.<br>
+                  </div>
+              </div>
+          </div>
+
+          <hr>
+
+          <div>
+              <h1>Question 3:</h1>
+              <div>The below content has some web accessibility issues. Rewrite the content and markup
+                in the div#accessibility as you see fit to make it more accessible. Please explain your decisions below.</div>
+                <div>
+                    <span>Opportunities at Comcast Corportation include</span>
+                    <p>
+                        <span class='red'>* Comcast</span><br>
+                        <span class='green'>* NBCUniversal</span><br>
+                        <span class='green'>* NBCUniversal International</span><br>
+                        <span>* Parks &amp; Resorts</span><br>
+                        <span class='red'>* Comcast Spectacor</span><br>
+                        <span class='red'>* Comcast Ventures</span>
+                    </p>
+                    <p><span>Red text is Comcast,</span> <span>Green text is NBC.</span></p>
+                    <p><a href="http://comcastcorporation.com/" target="_blank">Click here</a> to learn more about <img></p>
+                </div>
+                <div></div>
+          </div>
+
+          <hr>
+
+          <div>
+              <h1>Question 4:</h1>
+              <div>
+                  <div class='left'>This box should be on the left side of the page</div>
+                  <div class='right'>This box should be on the right side of the page</div>
+                  <div class='center'>This box should be at the center of the page and should disappear if the page is less than 800px.</div>
+                  <br>
+              </div>
+          </div>
+
+
+
+          <h1>JavaScript Portion</h1>
+          <p>
+            The JavaScript portion of the test should be completed within 30 minutes.
+          </p>
+
+          <hr>
+          <div>
+              <h1>Question 1:</h1>
+              <div>
+                  <span id='jsColor'>This text should be dark blue.</span><br>
+                  1. Explain why the JavaScript code in the &lt;head&gt; element is failing to achieve this.<br>
+                  2. Edit the JavaScript code to achieve this, leaving it in the &lt;head&gt;.
+              </div><br />
+              <div>
+                1. Any javascript in the head will be evaluated before the page is loaded,
+                it need to put after this part of HTML is loaded.We can put it at the bottom.
+              </div>
+          </div>
+          <hr>
+          <div>
+              <h1>Question 2:</h1>
+
+              <div>
+                  1. Explain why the above throws an error.<br>
+                  2. Fix the code so the last line works.
+              </div><br />
+              <div> Note: I do not see any code provided for this question in the html file
+              </div>
+          </div>
+
+          <hr>
+
+          <div>
+              <h1>Question 3:</h1>
+              <div>Complete the &#39;increment&#39; function below so that all of the console.log statements return true. </div>
+              <br />
+              <div>
+                Note: Same here, I do not see any increment function provided in the file.
+              </div>
+          </div>
+
+          <hr>
+
+          <div>
+              <h1>Question 4:</h1>
+              <div>In Javascript, programatically list all of the prime numbers from 1 to 100.</div>
+
+              <div>
+                <script>
+                for (var num = 1; num <= 100; num++) {
+
+                    var notPrime = false;
+                    for (var i = 2; i <= num; i++) {
+                        if (num%i===0 && i!==num) {
+                            notPrime = true;
+                        }
+                    }
+                    if (notPrime === false) {
+                                document.write(num+' ');
+                    }
+                }
+                </script>
+              </div>
+          </div>
+
+
+          <hr>
+
+          <div>
+              <h1>Question 5:</h1>
+              <div>Create a function that takes an array and returns a new array
+                   with numbers that are multiples of X removed</div>
+              <p>
+                function removeMultiples(arr, x) {
+                return arr.filter(function(ele) {
+                  return ele % x !== 0;
+                  })
+                }
+              </p>
+          </div>
+
+          <hr>
+
+          <div>
+              <h1>Bonus Question:</h1>
+              <div>Use the addTwoNumbers function to create a new function which adds a number to X</div>
+              <script>
+                function addTwoNumbers(x, num) {
+                  return x+num
+                }//not so clear about the question asking for
+              </script>
+          </div>
+
+
+
+
+
+          <h1>DevOps Portion</h1>
+          <p>
+            The DevOps portion of the test should be completed within 30 minutes.
+          </p>
+
+          <hr>
+          <div>
+              <h1>Question 1:</h1>
+              <div>How do you use source control to manage releases? How would
+                you handle an emergency release?<div>
+                  <br />
+              <div>
+                Source control gives us a place to check in our code and keep it secure so that it can’t be haphazardly deleted,<br />
+                and it allows us to keep track of changes so that if we accidentally delete some portion of the code or make a huge mistake,<br />
+                you can go back and fix it. I have been using Git as my source control tool.
+              </div>
+          </div>
+
+          <hr>
+
+          <div>
+              <h1>Question 2:</h1>
+              <div>List the testing frameworks you have written tests in:<div>
+              <div> Jasmine</div>  <br />
+              <div>List the test runners you have configured and used:<div>
+              <div>Karma</div>  <br />
+              <div>What is an acceptable level of test coverage and why?<div>
+              <div>Code coverage of 70-80% is a reasonable goal for system test of most projects with most coverage metrics.<br />
+                  Use a higher goal for projects specifically organized for high testability or that have high failure costs
+              </div>
+          </div>
+          <hr>
+
+          <div>
+              <h1>Question 3:</h1>
+              <div>As a web engineer, describe three performance concerns you
+                  need to deal with and how you address them.<div>  <br />
+              <div>Incomplete Input Validation<br />
+                1.Make certain inputs required<br />
+                2.Show reminders about validation of type<br />
+                3.Positively indicate valid input values<br />
+              </div>  <br />
+              <div>Password management<br />
+                  1. Hash the passwords<br />
+                  2.Allow for third-party identity providers if possible<br />
+              </div>  <br />
+              <div>
+                Time or Processor Consuming Actions in Request Handlers<br />
+                Any time or processor consuming action should be handled by an external process while you release your HTTP requests as soon as possible
+              </div>
+          </div>
+
+        </div></div></div></div></div></div></div></div></div></div>
+
+
+          <h1>Personal Development</h1>
+          <hr>
+          <div>
+              <h1>Question 1:</h1>
+              <div>Share something you&#39;ve learned in the past month.<div>
+              <div>Ruby on Rails</div>
+          </div>
+          <hr>
+
+          <div>
+              <h1>Question 2:</h1>
+              <div>What is an area of software development that you want to grow in?<div>
+              <div>Frontend Web developer</div>
+          </div>
+        </div></div></div></div>
+
+
+        <hr>
+
+          Thank you for completing this questionnaire. We&#39;ll take a look at what you
+          submitted and get back to you soon.
+          <div>If you have any comments or suggestions please let us know below.</div>
+          <div></div>
+
+    <div>
+
+</div></div></div></body></html>
